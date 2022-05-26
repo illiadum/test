@@ -10,7 +10,7 @@ body {
 
 label {
     margin-bottom: 6px;
-    color: #c2cad7;
+    color: #212937;
     font-size: 11px;
 }
 
@@ -80,7 +80,7 @@ label {
     margin-bottom: 0;
     padding: 0 12px;
     background-color: #fff;
-    color: #333;
+    color: #131f37;
     font-size: 14px;
     cursor: pointer;
 }
@@ -97,12 +97,16 @@ label {
 
 .card .card-header h5 {
     margin: 0;
-    color: #1e315c;
+    color: #131f37;
     font-weight: bold;
 }
 
 .bg-success {
-    background-color: #667594 !important;
+    background-color: #1f9791 !important;
+}
+
+.bg-secondary {
+    background-color: #ffc962 !important;
 }
 
 .progress {
