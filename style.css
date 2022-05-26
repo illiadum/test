@@ -1,0 +1,110 @@
+body {
+    background-color: #f2f5fa;
+    font-size: 14px;
+}
+
+.container {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+label {
+    margin-bottom: 6px;
+    color: #c2cad7;
+    font-size: 11px;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.form-control {
+    height: 46px;
+    line-height: 42px;
+    border-radius: 12px;
+    border: 1px solid #f0eeee;
+}
+
+.Select-control {
+    height: 46px;
+    border-radius: 12px;
+    border: 1px solid #f0eeee;
+}
+
+.Select--single>.Select-control .Select-value, .Select-placeholder {
+    line-height: 42px;
+}
+
+#building_filter {
+    display: flex;
+}
+
+#building_filter .form-check {
+    margin: 0 -1px 0 0;
+    padding: 0;
+    height: 46px;
+    line-height: 42px;
+    border: 1px solid #f0eeee;
+    overflow: hidden;
+}
+
+#building_filter .form-check:first-of-type {
+    border-radius: 12px 0 0 12px;
+}
+
+#building_filter .form-check:last-of-type {
+    border-radius: 0 12px 12px 0;
+}
+
+#building_filter .form-check-input {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#building_filter .form-check-input:checked + .form-check-label {
+    background-color: #f6f9ff;
+}
+
+#building_filter .form-check-label {
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0 12px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+}
+
+.card .card-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+
+.card .card-header h5 {
+    margin: 0;
+    color: #1e315c;
+    font-weight: bold;
+}
+
+.bg-success {
+    background-color: #667594 !important;
+}
+
+.progress {
+    border-radius: 3px;
+}
+
+#graphs-div label {
+    font-size: 14px;
+}
+
+#graphs-div .title-top {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
