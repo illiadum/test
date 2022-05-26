@@ -127,6 +127,14 @@ label {
     font-size: 12px;
 }
 
+.js-plotly-plot .plotly .main-svg {
+    background-color: transparent;
+}
+
+.js-plotly-plot .plotly .user-select-none, .js-plotly-plot .plotly .main-svg {
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     #building_filter {
         flex-direction: column;
