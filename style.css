@@ -25,6 +25,10 @@ label {
     border: 1px solid #f0eeee;
 }
 
+#dynamic_year input {
+    padding-left: 10px;
+}
+
 .Select-control {
     height: 46px;
     border-radius: 12px;
@@ -118,8 +122,16 @@ label {
     #building_filter {
         flex-direction: column;
     }
+    #building_filter .form-check {
+        margin: 0 0 -1px;
+        border-radius: 12px;
+    }
     #building_filter .form-check-label {
         text-align: center;
         border-radius: 12px;
+    }
+
+    #range_dropdown {
+        margin-bottom: 10px;
     }
 }
