@@ -18,7 +18,7 @@ label {
     border-radius: 12px;
 }
 
-.form-control {
+.form-control, .SingleDatePickerInput__withBorder, #dynamic_year input  {
     height: 46px;
     line-height: 42px;
     border-radius: 12px;
@@ -68,6 +68,7 @@ label {
 
 #building_filter .form-check-label {
     height: 100%;
+    width: 100%;
     margin-bottom: 0;
     padding: 0 12px;
     background-color: #fff;
@@ -107,4 +108,14 @@ label {
 #graphs-div .title-top {
     margin-bottom: 10px;
     font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    #building_filter {
+        flex-direction: column;
+    }
+    #building_filter .form-check-label {
+        text-align: center;
+        border-radius: 12px;
+    }
 }
