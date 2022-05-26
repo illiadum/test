@@ -18,7 +18,7 @@ label {
     border-radius: 12px;
 }
 
-.form-control, .SingleDatePickerInput__withBorder, #dynamic_year input  {
+.form-control, .SingleDatePickerInput__withBorder, #dynamic_year input, .DateRangePickerInput  {
     height: 46px;
     line-height: 42px;
     border-radius: 12px;
@@ -33,6 +33,10 @@ label {
 
 .Select--single>.Select-control .Select-value, .Select-placeholder {
     line-height: 42px;
+}
+
+.DateInput, .DateInput .DateInput_input {
+    background-color: transparent;
 }
 
 #building_filter {
