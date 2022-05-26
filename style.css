@@ -128,11 +128,11 @@ label {
 }
 
 .js-plotly-plot .plotly .main-svg {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .js-plotly-plot .plotly .user-select-none, .js-plotly-plot .plotly .main-svg {
-    width: 100%;
+    width: 100% !important;
 }
 
 @media (max-width: 768px) {
