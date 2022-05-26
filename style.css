@@ -109,6 +109,11 @@ label {
     background-color: #ffc962 !important;
 }
 
+.btn-secondary {
+    background-color: #ffc962 !important;
+    border-color: #ffc962 !important;
+}
+
 .progress {
     border-radius: 3px;
 }
