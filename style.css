@@ -88,6 +88,7 @@ label {
 .card {
   overflow: hidden;
   border-radius: 6px;
+  box-shadow: 0 0 10px 0 #efefef;
 }
 
 .card .card-header {
