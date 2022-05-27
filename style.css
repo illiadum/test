@@ -1,150 +1,156 @@
 body {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .container {
-    max-width: none !important;
-    width: 100% !important;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 label {
-    margin-bottom: 6px;
-    color: #212937;
-    font-size: 11px;
+  margin-bottom: 6px;
+  color: #212937;
+  font-size: 11px;
 }
 
-.form-control, .SingleDatePickerInput__withBorder, #dynamic_year input, .DateRangePickerInput  {
-    height: 46px;
-    line-height: 42px;
-    border-radius: 12px;
-    border: 1px solid #f0eeee;
+.form-control,
+.SingleDatePickerInput__withBorder,
+#dynamic_year input,
+.DateRangePickerInput {
+  height: 46px;
+  line-height: 42px;
+  border-radius: 12px;
+  border: 1px solid #f0eeee;
 }
 
 #dynamic_year input {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .Select-control {
-    height: 46px;
-    border-radius: 12px;
-    border: 1px solid #f0eeee;
+  height: 46px;
+  border-radius: 12px;
+  border: 1px solid #f0eeee;
 }
 
-.Select--single>.Select-control .Select-value, .Select-placeholder {
-    line-height: 42px;
+.Select--single > .Select-control .Select-value,
+.Select-placeholder {
+  line-height: 42px;
 }
 
-.DateInput, .DateInput .DateInput_input {
-    background-color: transparent;
+.DateInput,
+.DateInput .DateInput_input {
+  background-color: transparent;
 }
 
 #building_filter {
-    display: flex;
+  display: flex;
 }
 
 #building_filter .form-check {
-    margin: 0 -1px 0 0;
-    padding: 0;
-    height: 46px;
-    line-height: 42px;
-    border: 1px solid #f0eeee;
-    overflow: hidden;
+  margin: 0 -1px 0 0;
+  padding: 0;
+  height: 46px;
+  line-height: 42px;
+  border: 1px solid #f0eeee;
+  overflow: hidden;
 }
 
 #building_filter .form-check:first-of-type {
-    border-radius: 12px 0 0 12px;
+  border-radius: 12px 0 0 12px;
 }
 
 #building_filter .form-check:last-of-type {
-    border-radius: 0 12px 12px 0;
+  border-radius: 0 12px 12px 0;
 }
 
 #building_filter .form-check-input {
-    display: none;
-    visibility: hidden;
-    opacity: 0;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 #building_filter .form-check-input:checked + .form-check-label {
-    background-color: #f6f9ff;
+  background-color: #f6f9ff;
 }
 
 #building_filter .form-check-label {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 0;
-    padding: 0 12px;
-    background-color: #fff;
-    color: #131f37;
-    font-size: 14px;
-    cursor: pointer;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0 12px;
+  background-color: #fff;
+  color: #131f37;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .card {
-    overflow: hidden;
-    border-radius: 6px;
+  overflow: hidden;
+  border-radius: 6px;
 }
 
 .card .card-header {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
 }
 
 .card .card-header h5 {
-    margin: 0;
-    color: #131f37;
-    font-weight: bold;
+  margin: 0;
+  color: #131f37;
+  font-weight: bold;
 }
 
 .bg-success {
-    background-color: #1f9791 !important;
+  background-color: #1f9791 !important;
 }
 
 .bg-secondary {
-    background-color: #ffc962 !important;
+  background-color: #ffc962 !important;
 }
 
 .btn-secondary {
-    background-color: #ffc962 !important;
-    border-color: #ffc962 !important;
+  background-color: #ffc962 !important;
+  border-color: #ffc962 !important;
 }
 
 .progress {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 #graphs-div label {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 #graphs-div .title-top {
-    margin-bottom: 10px;
-    font-size: 12px;
+  margin-bottom: 10px;
+  font-size: 12px;
 }
 
 .js-plotly-plot .plotly .main-svg {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
-.js-plotly-plot .plotly .user-select-none, .js-plotly-plot .plotly .main-svg {
-    width: 100% !important;
+.js-plotly-plot .plotly .user-select-none,
+.js-plotly-plot .plotly .main-svg {
+  width: 100% !important;
 }
 
 @media (max-width: 768px) {
-    #building_filter {
-        flex-direction: column;
-    }
-    #building_filter .form-check {
-        margin: 0 0 -1px;
-        border-radius: 12px;
-    }
-    #building_filter .form-check-label {
-        text-align: center;
-        border-radius: 12px;
-    }
+  #building_filter {
+    flex-direction: column;
+  }
+  #building_filter .form-check {
+    margin: 0 0 -1px;
+    border-radius: 12px;
+  }
+  #building_filter .form-check-label {
+    text-align: center;
+    border-radius: 12px;
+  }
 
-    #range_dropdown {
-        margin-bottom: 10px;
-    }
+  #range_dropdown {
+    margin-bottom: 10px;
+  }
 }
