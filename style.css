@@ -1,5 +1,4 @@
 body {
-    background-color: #f2f5fa;
     font-size: 14px;
 }
 
@@ -12,10 +11,6 @@ label {
     margin-bottom: 6px;
     color: #212937;
     font-size: 11px;
-}
-
-.btn {
-    border-radius: 12px;
 }
 
 .form-control, .SingleDatePickerInput__withBorder, #dynamic_year input, .DateRangePickerInput  {
@@ -86,7 +81,8 @@ label {
 }
 
 .card {
-    border: none;
+    overflow: hidden;
+    border-radius: 6px;
 }
 
 .card .card-header {
